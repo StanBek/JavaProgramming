@@ -7,6 +7,7 @@ public class BMW extends Car{
 
 
     //commit
+    //commit2
     public void breakDown(){
         System.out.println(model+" "+brand+" is break down");
     }
