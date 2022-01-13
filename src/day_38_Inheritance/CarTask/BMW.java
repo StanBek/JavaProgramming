@@ -5,6 +5,7 @@ public class BMW extends Car{
         super("BMW", model, year, price, color, miles);
     }
 
+
     public void breakDown(){
         System.out.println(model+" "+brand+" is break down");
     }
