@@ -4,7 +4,7 @@ public class Cydeo {
 
     public static void main(String[] args) {
 
-        Developer developer = new Developer("Stan", 39, 'M', 1982, "SDET", 150000);
+        Developer developer = new Developer("Stan", 39, 'M', 1982, "Developer", 150000);
 
         System.out.println(developer);
 
@@ -20,5 +20,35 @@ public class Cydeo {
         System.out.println(teacher);
         System.out.println(teacher);
         System.out.println(student);
+
+        System.out.println("================================");
+
+        developer.setAge(39);
+
+        System.out.println(developer.getAge());
+
+        developer.work();
+        teacher.work();
+        tester.work();
+
+        developer.eat();
+        developer.drink();
+        developer.sleep();
+
+        developer.fixingBug();
+
+        tester.eat();
+        tester.drink();
+        tester.sleep();
+
+        //tester.fixingBug();
+        tester.createTicket();
+
+        teacher.eat();
+        teacher.drink();
+        teacher.sleep();
+
+        student.study();
+        student.eat();
     }
 }
