@@ -6,5 +6,7 @@ public class Dog extends Animal {
         super(name,breed,gender,age,size,color);
     }
 
-    public void bark(){}
+    public void bark(){
+        System.out.println(name+" is barking");
+    }
 }
