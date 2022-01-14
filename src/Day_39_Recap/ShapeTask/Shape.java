@@ -32,6 +32,10 @@ public class Shape {
         return 0;
     }
 
+    public String color(){
+        return "";
+    }
+
     @Override
     public String toString() {
         return "Shape{" +

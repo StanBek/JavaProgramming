@@ -1,8 +1,8 @@
-package day_38_Inheritance;
+package Day_32_Constructors.day_38_Inheritance;
 
-import day_38_Inheritance.CarTask.BMW;
-import day_38_Inheritance.CarTask.Tesla;
-import day_38_Inheritance.CarTask.Toyota;
+import Day_32_Constructors.day_38_Inheritance.CarTask.BMW;
+import Day_32_Constructors.day_38_Inheritance.CarTask.Tesla;
+import Day_32_Constructors.day_38_Inheritance.CarTask.Toyota;
 
 public class ParkingLot {
 

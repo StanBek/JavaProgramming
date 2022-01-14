@@ -1,4 +1,4 @@
-package day_38_Inheritance.CarTask;
+package Day_32_Constructors.day_38_Inheritance.CarTask;
 
 public class Tesla extends Car{
     public Tesla( String model, int year, double price, String color, int miles) {
@@ -12,5 +12,9 @@ public class Tesla extends Car{
     @Override
     public void start() {
         System.out.println("Say \"Start\" to start "+ brand+" "+model);
+
     }
+
+
+
 }
