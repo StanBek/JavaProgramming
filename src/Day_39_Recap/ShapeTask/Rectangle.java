@@ -5,10 +5,10 @@ public class Rectangle extends Shape {
     private double length;
     private double width;
 
-    public Rectangle(String name) {
-        super(name);
-        setLength(length);
+    public Rectangle( double length, double width) {
+        super("Rectangle");
         setWidth(width);
+        setLength(length);
     }
 
     public double getLength() {

@@ -9,9 +9,7 @@ public class Square extends Shape {
         setSide(side);
     }
 
-    public Square(String name) {
-        super(name);
-    }
+
 
     public double getSide() {
         return side;
