@@ -19,5 +19,17 @@ public class ShapeObject {
         System.out.println(rectangle);
 
 
+        System.out.println(rectangle.getLength()+" "+ rectangle.area());
+
+        System.out.println("================================================");
+
+        Circle circle = new Circle(7.5);
+
+        System.out.println(circle);
+
+        circle.setRadius(15.5);
+        System.out.println(circle.getRadius());
+
+
     }
 }
