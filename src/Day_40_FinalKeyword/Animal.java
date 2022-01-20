@@ -53,4 +53,25 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public void eat(){
+        System.out.println(name+" is eating");
+    }
+
+    public final void drink(){
+        System.out.println(name+" is drinking water");
+    }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender=" + gender +
+                ", color='" + color + '\'' +
+                ", size='" + size + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
+
