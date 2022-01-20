@@ -9,6 +9,8 @@ public class AccessModifiers_Test4 extends ProtectedAccessModifier {
        // System.out.println(ProtectedAccessModifier.name1);//still not visible because its static
         System.out.println(ProtectedAccessModifier.name2);//protected its visible because its subclass
 
+        AccessModifiers_Test4.method2();// visible because its subclass
+        //AccessModifiers_Test4.method1();//default is not visible
 
     }
 }
