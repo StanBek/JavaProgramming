@@ -6,7 +6,7 @@ public abstract class Employee extends Person {
     private String jobTitle;
     private double salary;
 
-    public Employee(String name, int age, int id, char gender,  String jobTitle) {
+    public Employee(String name, int age, int id, char gender,  String jobTitle, double salary) {
         super(name, age, gender);
         if(id<=0){
             throw new RuntimeException("id can not be zero or negative number");
