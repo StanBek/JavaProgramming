@@ -44,4 +44,13 @@ public abstract class Person {
     public void eat(){
         System.out.println(name+" is eating baklava");
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
+    }
 }
