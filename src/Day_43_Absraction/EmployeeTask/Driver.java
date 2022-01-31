@@ -1,8 +1,8 @@
 package Day_43_Absraction.EmployeeTask;
 
 public final class Driver extends Employee{
-    public Driver(String name, int age, int id, char gender, String jobTitle) {
-        super(name, age, id, gender, jobTitle);
+    public Driver(String name, int age, int id, char gender, String jobTitle, double salary) {
+        super(name, age, id, gender, jobTitle, salary);
     }
 
     public void work() {
