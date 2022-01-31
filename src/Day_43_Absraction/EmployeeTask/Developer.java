@@ -1,8 +1,8 @@
 package Day_43_Absraction.EmployeeTask;
 
 public final class Developer extends Employee{
-    public Developer(String name, int age, int id, char gender, String jobTitle) {
-        super(name, age, id, gender, jobTitle);
+    public Developer(String name, int age, int id, char gender, String jobTitle, double salary) {
+        super(name, age, id, gender, jobTitle, salary);
     }
 
     public void work() {
