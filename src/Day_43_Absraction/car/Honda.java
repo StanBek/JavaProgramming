@@ -9,4 +9,7 @@ public class Honda extends Car{
     public void start() {
         System.out.println("twist your key");
     }
+    public void stop(){
+        System.out.println("Stop random");
+    }
 }
